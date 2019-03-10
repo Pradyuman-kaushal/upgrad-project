@@ -29,23 +29,38 @@
         <div class="postButtons">
 
         	<!-- Insert code for All Posts & Create Post button here -->
-            <input type="button" class="post" value="All Posts">&nbsp;
+            <a href="/html/bloglist.html"><input type="button" class="post" value="All Posts"></a>&nbsp;
             <input type="button" class="post" value="Create Post">
 
         </div>
     </div>
 
-    <div>
+    <div id="Sign_In" class="modal">
     
         <!-- Insert code for Sign In modal here -->
-
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p align="center">Welcome Back!</p>
+            <hr>
+        
+        <form>
+            <label for="uname">Username</label><br>    
+            <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+            <label for="pass">Password</label><br>    
+            <input type="password" placeholder="Enter Password" name="pass" required><br><br>
+            
+            <button type="submit">Sign In</button>
+        </form>
+            <p id="mc" align="center">Not a member? <a id="SU" style="cursor:pointer;">Sign Up</a></p>	
+        
+        </div>
     </div>
 
     <div id="Sign_Up" class="modal">
         <!-- Insert code for Sign Up modal here -->
         <div class="modal-content">
             <span class="close">&times;</span>
-            <p id="mc" align="center">Get Started</p>
+            <p align="center">Get Started</p>
             <hr>
         
         <form>

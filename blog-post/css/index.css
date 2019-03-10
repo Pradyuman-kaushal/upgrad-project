@@ -1,3 +1,9 @@
+#mc{
+    font-family:sans-serif;
+    color: black;
+    font-size:15px;
+    padding-top:30px;
+}
 body{
    background: url('background.jpg');
    background-repeat: no-repeat;
