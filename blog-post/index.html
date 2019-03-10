@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Place all CSS for header in this file -->
+    <link href='css\header.css' rel='stylesheet' type='text/css'>
+
+    <!-- Place all CSS for the rest of the elements in this file -->
+    <link href='css\index.css' rel='stylesheet' type='text/css'>
+
+	<!-- Place all CSS for fonts in this file -->
+    <link href='css\font.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="main-container-div">
+
+        <div class="header">
+
+        	<!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
+            <button class="topButtons"  id="SUp">Sign Up</button>
+            <button class="topButtons"  id="SIn">Sign In</button>
+            <a id="pageTitle" class="logo-title">ScriBBler</a>
+            <p class="middleText">Explore, Imagine, Create</p>
+
+        </div>
+           
+        <div class="postButtons">
+
+        	<!-- Insert code for All Posts & Create Post button here -->
+            <input type="button" class="post" value="All Posts">&nbsp;
+            <input type="button" class="post" value="Create Post">
+
+        </div>
+    </div>
+
+    <div>
+    
+        <!-- Insert code for Sign In modal here -->
+
+    </div>
+
+    <div id="Sign_Up" class="modal">
+        <!-- Insert code for Sign Up modal here -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="mc" align="center">Get Started</p>
+            <hr>
+        
+        <form>
+            <label for="fname">Full Name</label><br>    
+            <input type="text" placeholder="Enter Full Name" name="fname" required><br><br>
+            <label for="uname">Username</label><br>    
+            <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+            <label for="pass">Password</label><br>    
+            <input type="password" placeholder="Enter Password" name="pass" required><br><br>
+            <label for="cnf_pass">Confirm Password</label><br>    
+            <input type="password" placeholder="Confirm Password" name="cnf_pass" required><br><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    	
+        
+        </div>
+    </div>
+
+    
+    <div>
+
+    	<!-- Insert code for Create Post modal here -->
+
+    </div>
+
+	<!-- Place all Javascript for header in this file -->
+	<script src="js\header.js"></script>
+	<!-- Place all Javascript for rest of the elements in this file -->
+    <script src="js\index.js"></script>
+
+</body>
+</html>
