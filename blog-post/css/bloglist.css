@@ -1,12 +1,14 @@
 .post {
-    position: relative;
-    width: 90%;
+
+    position:relative;
+    width: 40%;
     height: 20%;
     background: #fff;
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
-    margin: 10px 10px 10px 20px;
+    margin: 10px 5% 10px 5%;
     float:left;
     border-radius: 15px;
+    
 }
     
 .post-left {
@@ -17,6 +19,7 @@
         text-align: center;
         font-weight: bold;
         color: #000;
+    
 }
 .post-content {
         width: 75%;           
@@ -25,7 +28,8 @@
         background-color: #E8E8E8;
         color: #000000;
         border-radius: 0 15px 15px 0;
-        padding: 0 20px;      
+        padding: 0 20px;
+        overflow: hidden;
 }
 .post-title{
     font-family: 'Itim', cursive;
@@ -33,6 +37,10 @@
     color: #2b312b;
     font-size: 25px;
     height: 25px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
     }
 .post-more {
     float: right;
@@ -46,6 +54,13 @@
 .post-desc{
     height: 100px;
     margin-bottom: 0 !important;
+    line-height: 1.em;
+    height: 3.5em;
+    width:95%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
 }
 
 body {
@@ -55,10 +70,27 @@ body {
     margin: 0 !important;
     color: #fff;
     background-color: orange;
-    background-size: 2000% 2000%;
+    background-size: 100% 100%;
 }
 .allPostsContainer {
     height: 100%;
     width: 100%;
-
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+#more{
+    font-size:25px;
+    float:right;
+    font-weight:bold;
+    padding-top: 0px;
+    padding-bottom:2%;
+    cursor:pointer;
+}
+#pq{
+font-size: 24px; 
+float:right; 
+padding-top: 15px;
+cursor:pointer;
 }
