@@ -30,7 +30,7 @@
 
         	<!-- Insert code for All Posts & Create Post button here -->
             <a href="/html/bloglist.html"><input type="button" class="post" value="All Posts"></a>&nbsp;
-            <input type="button" class="post" value="Create Post">
+            <input type="button" class="post" value="Create Post" onclick="createmodal()">
 
         </div>
     </div>
@@ -81,7 +81,38 @@
 
     
     <div>
+ <div>
+   <div id="modalwrapper3" class="modal">
+            
 
+            <div class="modal-content">
+                <span class="close" onclick="closecreate()">&times;</span>
+                
+
+                    <center>
+                        <h1>Create A Blog</h1>
+                    </center>
+                    <hr>
+                    <form>
+                    <lable for="email"><b>Author name</b></lable>
+                    <input type="text" placeholder="Enter Author name" name="email" required><br><br>
+
+                    <label for="psw"><b>Blog heading </b></label>
+                    <input type="text" placeholder="Enter Blog heading" name="psw" required><br><br>
+                    
+                    <label for="psw"><b>Blog Content </b></label>
+                    <input type="text" placeholder="Enter Blog Content" name="psw" required><br><br>
+                    
+                    <button type="submit" class="signup-btn">Create</button>
+                    
+                     
+                
+            </form>
+                    </div>
+        </div>
+        <!-- Insert code for Create Post modal here -->
+
+    </div>
     	<!-- Insert code for Create Post modal here -->
 
     </div>

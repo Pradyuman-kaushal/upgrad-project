@@ -26,10 +26,9 @@ function fun1(eds){
     par.classList.add("editcmnt1");
     qar.classList.add("editcmnt2");    
   par.style.height = (par.scrollHeight)+"px";
-        //qar.style.height = (qar.scrollHeight)+"px";    
-         
+        qar.style.height = (qar.scrollHeight)+"px";
+        par.focus();
     once=2;
-        
         document.getElementsByClassName("blogAuthor")[0].style.marginBottom="10px";
     }
     else {
