@@ -71,10 +71,11 @@ h1{
   font-size: 20px;
   font-weight:bold;
     animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
+
 }
 .modal-content input{
-    width:100%;
+    width:95%;
     background-color:#F1F1F1;
     color:#B2B2B2;
     border:0px;
@@ -85,6 +86,9 @@ h1{
 .modal-content p{
     font-size: 30px;
     }
+.modal-content a{
+    color:blue;
+}
 .modal-content button{
     color: white;
     }
